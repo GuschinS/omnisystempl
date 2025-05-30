@@ -9,7 +9,7 @@ export default function Header() {
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
-      setMenuOpen(false); // Закрыть меню после клика
+      setMenuOpen(false); // Zamknij menu po kliknięciu
     }
   };
 
@@ -24,7 +24,7 @@ export default function Header() {
           />
         </a>
 
-        {/* Бургер для мобильных */}
+        {/* Burger dla urządzeń mobilnych */}
         <button
           className="md:hidden text-gray-700"
           onClick={() => setMenuOpen(!menuOpen)}
@@ -32,19 +32,19 @@ export default function Header() {
           ☰
         </button>
 
-        {/* Меню десктоп */}
+        {/* Menu desktopowe */}
         <nav className="hidden md:flex space-x-6">
           <a
             href="#features"
             className="text-primary hover:text-accent transition-colors cursor-pointer"
           >
-            Функции
+            Funkcje
           </a>
           <a
             href="#devices"
             className="text-primary hover:text-accent transition-colors cursor-pointer"
           >
-            Устройства
+            Urządzenia
           </a>
           <a
             href="#faq"
@@ -56,12 +56,12 @@ export default function Header() {
             href="#contact"
             className="text-primary hover:text-accent transition-colors cursor-pointer"
           >
-            Контакт
+            Kontakt
           </a>
         </nav>
       </div>
 
-      {/* Мобильное меню */}
+      {/* Menu mobilne */}
       {menuOpen && (
         <nav className="md:hidden bg-white shadow-lg px-4 py-2 space-y-3">
           <a
@@ -69,14 +69,14 @@ export default function Header() {
             onClick={() => setMenuOpen(false)}
             className="block text-left text-primary hover:text-accent transition-colors cursor-pointer"
           >
-            Функции
+            Funkcje
           </a>
           <a
             href="#devices"
             onClick={() => setMenuOpen(false)}
             className="block text-left text-primary hover:text-accent transition-colors cursor-pointer"
           >
-            Устройства
+            Urządzenia
           </a>
           <a
             href="#faq"
@@ -90,7 +90,7 @@ export default function Header() {
             onClick={() => setMenuOpen(false)}
             className="block text-left text-primary hover:text-accent transition-colors cursor-pointer"
           >
-            Контакт
+            Kontakt
           </a>
         </nav>
       )}

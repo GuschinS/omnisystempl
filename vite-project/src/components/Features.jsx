@@ -4,215 +4,176 @@ export default function Features() {
     <section id="features" className="py-20 bg-lightBg">
       <div className="container mx-auto px-4">
         <h3 className="text-xl font-semibold text-center text-primary mb-3">
-          Внедрение комплексных решений для мониторинга транспорта позволяет
+          Wdrożenie kompleksowych rozwiązań do monitorowania transportu umożliwia
           <strong>
             {" "}
-            повысить эффективность, автоматизировать процессы и оптимизировать
-            расходы
+            zwiększenie efektywności, automatyzację procesów i optymalizację kosztów
           </strong>
         </h3>
         <br />
         <h2 className="text-3xl font-bold text-center text-primary mb-10">
-          Функции
+          Funkcje
         </h2>
         <div className="grid md:grid-cols-3 gap-8 text-left">
           <div className="bg-white p-6 rounded shadow hover:shadow-xl transition-shadow">
             <h3 className="text-xl font-semibold text-primary mb-3">
-              Мониторинг 24/7
+              Monitoring 24/7
             </h3>
             <p className="text-gray-600">
-              Доступ до всей имеющейся информации по всем объектам, с любого
-              устройства, имеющего подключение к сети интернет
+              Dostęp do całej dostępnej informacji dotyczącej wszystkich obiektów z dowolnego urządzenia posiadającego dostęp do internetu.
               <br />
-              Данные хранятся на сервере 12 месяцев
+              Dane są przechowywane na serwerze przez 12 miesięcy.
             </p>
           </div>
           <div className="bg-white p-6 rounded shadow hover:shadow-xl transition-shadow">
             <h3 className="text-xl font-semibold text-primary mb-3">
-              Контроль местоположения транспорта
+              Kontrola lokalizacji pojazdów
             </h3>
             <p className="text-gray-600">
-              Система контроля транспорта{" "}
-              <strong> отслеживает, фиксирует и анализирует </strong>
-              основные эксплуатационные параметры автомобиля и рейсовой
-              информации:
+              System kontroli transportu{" "}
+              <strong> śledzi, rejestruje i analizuje </strong>
+              podstawowe parametry eksploatacyjne samochodu i informacje o trasach:
             </p>
             <br />
             <ul className="list-disc pl-5 space-y-2 text-gray-700">
-              <li>местоположение ТС</li>
-              <li>треки маршрутов на карте</li>
-              <li>скорость движения</li>
-              <li>продолжительность рейса</li>
+              <li>lokalizacja pojazdu</li>
+              <li>trasy na mapie</li>
+              <li>prędkość jazdy</li>
+              <li>czas trwania kursu</li>
             </ul>
           </div>
           <div className="bg-white p-6 rounded shadow hover:shadow-xl transition-shadow">
             <h3 className="text-xl font-semibold text-primary mb-3">
-              Решения для контроля посещения геозон
+              Rozwiązania do kontroli wjazdu i postoju w geostrefach
             </h3>
             <p className="text-gray-600">
-              Полезный и наглядный инструмент контроля посещения и нахождения
-              транспортного средства на обозначенной территории
+              Przydatne i intuicyjne narzędzie do kontrolowania wjazdów oraz czasu postoju pojazdu w określonym obszarze.
             </p>
             <br />
             <ul className="list-disc pl-5 space-y-2 text-gray-700">
-              <li>контроль соблюдения заданного маршрута</li>
-              <li>
-                контроль местонахождения ТС в зоне разгрузки и выгрузки товара
-              </li>
-              <li>
-                контроль соблюдения скоростных режимов, установленных в
-                определенных локациях
-              </li>
-              <li>
-                контроль передвижения ТС в рамках сложного ландшафта: поля,
-                строительные площадки, карьеры и пр.
-              </li>
+              <li>kонтроль przestrzegania wyznaczonej trasy</li>
+              <li>kонтроль miejsca postoju pojazdu przy załadunku/wyładunku towaru</li>
+              <li>kонтrola przestrzegania ograniczeń prędkości w określonych lokalizacjach</li>
+              <li>kонтrola ruchu pojazdu w skomplikowanym terenie: pola, plac budowy, kopalnie itp.</li>
             </ul>
           </div>
           <div className="bg-white p-6 rounded shadow hover:shadow-xl transition-shadow">
-            <h3 className="text-xl font-semibold text-primary mb-3">Отчеты</h3>
+            <h3 className="text-xl font-semibold text-primary mb-3">Raporty</h3>
             <p className="text-gray-600">
-              Широкие возможности фильтрации по каждому доступному параметру
-              позволяют создать любой отчет всего за несколько кликов
+              Szerokie możliwości filtrowania według każdego dostępnego parametru pozwalają stworzyć każdy raport w kilka kliknięć.
             </p>
             <br />
             <ul className="list-disc pl-5 space-y-2 text-gray-700">
-              <li>возможность сохранения результатов отчета в файл</li>
-              <li>
-                возможность автоматического создания отчетов по расписанию и
-                отправки на указанный E-mail
-              </li>
+              <li>możliwość zapisania wyników raportu do pliku</li>
+              <li>możliwość automatycznego generowania raportów według harmonogramu i wysyłania ich na wskazany adres e-mail</li>
             </ul>
           </div>
           <div className="bg-white p-6 rounded shadow hover:shadow-xl transition-shadow">
             <h3 className="text-xl font-semibold text-primary mb-3">
-              Контроль параметров работы двигателя
+              Kontrola parametrów pracy silnika
             </h3>
             <p className="text-gray-600">
-              При подключении к CAN шине автомобиля в системе мониторинга
-              доступны следующие данные:
+              Po podłączeniu do magistrali CAN samochodu w systemie monitoringu dostępne są następujące dane:
             </p>
             <br />
             <ul className="list-disc pl-5 space-y-2 text-gray-700">
-              <li>обороты двигателя</li>
-              <li>температура охлаждающей жидкости</li>
-              <li>уровень и давление масла</li>
-              <li>уровень топлива</li>
+              <li>obroty silnika</li>
+              <li>temperatura cieczy chłodzącej</li>
+              <li>poziom i ciśnienie oleju</li>
+              <li>poziom paliwa</li>
             </ul>
           </div>
           <div className="bg-white p-6 rounded shadow hover:shadow-xl transition-shadow">
             <h3 className="text-xl font-semibold text-primary mb-3">
-              Контроль расхода топлива
+              Kontrola zużycia paliwa
             </h3>
             <p className="text-gray-600">
-              Возможность в режиме реального времени осуществлять контроль
-              топлива автомобиля или специальной техники:
+              Możliwość kontroli zużycia paliwa w trybie rzeczywistym dla samochodu lub maszyny specjalnej:
             </p>
             <br />
             <ul className="list-disc pl-5 space-y-2 text-gray-700">
-              <li>расход топлива на 100 км и м/ч</li>
-              <li>контроль заправок и сливов</li>
-              <li>контроль топлива в двух и более баках </li>
-              <li>контроль выдачи топлива для АТЗ</li>
-              <li>ведение общего топливного баланса предприятия</li>
+              <li>zużycie paliwa na 100 km i m/h</li>
+              <li>kontrola tankowań i opróżnień zbiornika</li>
+              <li>kontrola paliwa w dwóch lub więcej zbiornikach</li>
+              <li>kontrola wydawania paliwa dla pojazdów z cysterną</li>
+              <li>prowadzenie ogólnego bilansu paliwowego firmy</li>
             </ul>
           </div>
           <div className="bg-white p-6 rounded shadow hover:shadow-xl transition-shadow">
             <h3 className="text-xl font-semibold text-primary mb-3">
-              Поддержка дополнительного оборудования
+              Obsługa dodatkowego sprzętu
             </h3>
             <p className="text-gray-600">
-              Система мониторинга позволяет контролировать множество
-              разнообразных параметров в зависимости от назначения транспортного
-              средства:
+              System monitoringu pozwala kontrolować wiele różnych parametrów w zależności od przeznaczenia pojazdu:
             </p>
             <br />
             <ul className="list-disc pl-5 space-y-2 text-gray-700">
-              <li>
-                температуру и техническое состояние рефрижератора (IQFreeze)
-              </li>
-              <li>бортовые системы взвешивания (VESA Systems)</li>
-              <li>давление в шинах (TPMS)</li>
-              <li>работу дизельгенераторов (Gencomm)</li>
+              <li>temperaturę i stan techniczny agregatu chłodniczego (IQFreeze)</li>
+              <li>systemy ważenia pokładowego (VESA Systems)</li>
+              <li>ciśnienie w oponach (TPMS)</li>
+              <li>pracę generatorów prądu (Gencomm)</li>
             </ul>
           </div>
           <div className="bg-white p-6 rounded shadow hover:shadow-xl transition-shadow">
             <h3 className="text-xl font-semibold text-primary mb-3">
-              Частные и деловые поездки
+              Wyjazdy prywatne i służbowe
             </h3>
             <p className="text-gray-600">
-              Возможность разделить <strong> личные и деловые поездки</strong>,
-              назначив часы работы транспортного средства или отметив поездки
-              вручную. Это удобный инструмент, позволяющий{" "}
-              <strong> оптимизировать расходы </strong> на топливо на любом
-              предприятии.
+              Możliwość podziału na <strong> wyjazdy prywatne i służbowe</strong>, poprzez ustawienie godzin pracy pojazdu lub ręczne oznaczanie wyjazdów. To wygodne narzędzie, które pozwala{" "}
+              <strong> zoptymalizować koszty paliwa </strong> w każdej firmie.
             </p>
           </div>
           <div className="bg-white p-6 rounded shadow hover:shadow-xl transition-shadow">
             <h3 className="text-xl font-semibold text-primary mb-3">
-              Контроль работы водителей
+              Kontrola pracy kierowców
             </h3>
             <p className="text-gray-600">
-              Анализ данных, поступающих от транспортных средств, позволяет
-              оценить манеру вождения каждого водителя и контролировать:
+              Analiza danych z pojazdów pozwala ocenić styl jazdy każdego kierowcy i kontrolować:
             </p>
             <br />
             <ul className="list-disc pl-5 space-y-2 text-gray-700">
-              <li>скорость</li>
-              <li>количество и динамику ускорений и торможений</li>
-              <li>опасные маневры и аварийные ситуации</li>
-              <li>нарушение правил дорожного движения</li>
+              <li>prędkość</li>
+              <li>liczbę i dynamikę przyspieszeń i hamowań</li>
+              <li>manewry niebezpieczne i sytuacje awaryjne</li>
+              <li>naruszenia przepisów ruchu drogowego</li>
             </ul>
           </div>
           <div className="bg-white p-6 rounded shadow hover:shadow-xl transition-shadow">
             <h3 className="text-xl font-semibold text-primary mb-3">
-              Европейский Союз, Великобритания и Норвегия
+              Unia Europejska, Wielka Brytania i Norwegia
             </h3>
             <p className="text-gray-600">
-              Наши устройства работают на всей территории Европейского Союза,
-              Великобритании и Норвегии без каких-либо ограничений и
-              дополнительных затрат
+              Nasze urządzenia działają bez ograniczeń i dodatkowych kosztów na całym obszarze Unii Europejskiej, Wielkiej Brytanii i Norwegii.
             </p>
           </div>
           <div className="bg-white p-6 rounded shadow hover:shadow-xl transition-shadow">
             <h3 className="text-xl font-semibold text-primary mb-3">
-              Ценная информация вовремя
+              Właściwa informacja we właściwym czasie
             </h3>
             <p className="text-gray-600">
-              Благодаря актуальным показаниям нет необходимости помнить о
-              периодических проверках и технических обслуживаниях — система
-              автоматически вышлет уведомление о предстоящем событии
+              Dzięki bieżącym danym nie ma potrzeby pamiętać o okresowych przeglądarkach i konserwacjach – system automatycznie wyśle powiadomienie o nadchodzącym zdarzeniu.
             </p>
           </div>
           <div className="bg-white p-6 rounded shadow hover:shadow-xl transition-shadow">
             <h3 className="text-xl font-semibold text-primary mb-3">
-              Доступ для сотрудников
+              Dostęp dla pracowników
             </h3>
             <p className="text-gray-600">
-              Администратор системы имеет возможность создавать учетные записи
-              для сотрудников или руководителей групп и назначать им выбранные
-              транспортные средства
+              Administrator systemu ma możliwość tworzenia kont użytkowników dla pracowników lub liderów grup i przypisywania im wybranych pojazdów.
             </p>
           </div>
           <div className="bg-white p-6 rounded shadow hover:shadow-xl transition-shadow">
             <h3 className="text-xl font-semibold text-primary mb-3">
-              Совместное использование местоположения транспортного средства
+              Udostępnianie lokalizacji pojazdu
             </h3>
             <p className="text-gray-600">
-              Существует возможность предоставить доступ до местоположения
-              автомобиля сторонним компаниям:
+              Istnieje możliwość udostępnienia lokalizacji pojazdu zewnętrznym firmom:
             </p>
             <br />
             <ul className="list-disc pl-5 space-y-2 text-gray-700">
-              <li>отправить простую ссылку с актуальной позицией</li>
-              <li>
-                создать субсчет и закрепив за ним только выбранные транспортные
-                средства
-              </li>
-              <li>
-                настроить ретрансляцию телеметрических данных на сервер
-                принимающей стороны
-              </li>
+              <li>wysłanie prostego linku z aktualną lokalizacją</li>
+              <li>utworzenie subkonta i przypisanie mu tylko wybranych pojazdów</li>
+              <li>konfiguracja transmisji danych telemetrycznych na serwer drugiej strony</li>
             </ul>
           </div>
         </div>

@@ -7,17 +7,17 @@ import FMB965 from '../assets/img/FMB965.webp';
 import TFT100 from '../assets/img/TFT100.webp';
 import GH5200 from '../assets/img/GH5200.webp';
 import TAT100 from '../assets/img/TAT100.webp';
-import FMB003 from '../assets/img/FMB003.webp'
+import FMB003 from '../assets/img/FMB003.webp';
 
 export default function Devices() {
   return (
     <section id="devices" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center text-primary mb-10">
-          Навигационные терминалы
+          Terminale nawigacyjne
         </h2>
         <ul className="max-w-4xl mx-auto space-y-8">
-          {/* Элемент списка */}
+          {/* Element listy */}
           <li className="flex flex-col md:flex-row items-center gap-6 p-4 rounded-lg hover:bg-gray-50 transition-colors">
             <img
               src={FMT100}
@@ -26,7 +26,7 @@ export default function Devices() {
             />
             <div className="text-center md:text-left md:flex-1">
               <h3 className="font-semibold text-lg text-primary">FMT100</h3>
-              <p className="text-gray-600 text-left">2G трекер, устанавливаемый на автомобильный аккумулятор</p>
+              <p className="text-gray-600 text-left">Śledzący 2G do montażu na akumulatorze samochodowym</p>
             </div>
           </li>
 
@@ -38,7 +38,7 @@ export default function Devices() {
             />
             <div className="text-center md:text-left md:flex-1">
               <h3 className="font-semibold text-lg text-primary">FMP100</h3>
-              <p className="text-gray-600 text-left">Трекер 2G типа Plug & Play, подключаемый в гнездо прикуривателя</p>
+              <p className="text-gray-600 text-left">Śledzący typu Plug & Play 2G, podłączany do gniazdka zapalniczki</p>
             </div>
           </li>
 
@@ -50,7 +50,7 @@ export default function Devices() {
             />
             <div className="text-center md:text-left md:flex-1">
               <h3 className="font-semibold text-lg text-primary">FMB020</h3>
-              <p className="text-gray-600 text-left">Ультрамалый 2G трекер с Plug & Play установкой, для широкого спектра случаев использования</p>
+              <p className="text-gray-600 text-left">Najmniejszy śledzący 2G z instalacją Plug & Play, przeznaczony do szerokiego zakresu zastosowań</p>
             </div>
           </li>
 
@@ -62,7 +62,7 @@ export default function Devices() {
             />
             <div className="text-center md:text-left md:flex-1">
               <h3 className="font-semibold text-lg text-primary">FMB920</h3>
-              <p className="text-gray-600 text-left">Самая популярная компактная модель 2G для базового слежения</p>
+              <p className="text-gray-600 text-left">Najbardziej popularny kompaktowy model 2G do podstawowego śledzenia</p>
             </div>
           </li>
 
@@ -74,7 +74,7 @@ export default function Devices() {
             />
             <div className="text-center md:text-left md:flex-1">
               <h3 className="font-semibold text-lg text-primary">FMB965</h3>
-              <p className="text-gray-600 text-left">Влагостойкий и энергоэффективный 2G-трекер для мотоциклов. Класс защиты IP67</p>
+              <p className="text-gray-600 text-left">Wodoodporný i energooszczędny śledzący 2G dla motocykli. Stopień ochrony IP67</p>
             </div>
           </li>
 
@@ -86,7 +86,7 @@ export default function Devices() {
             />
             <div className="text-center md:text-left md:flex-1">
               <h3 className="font-semibold text-lg text-primary">TFT100</h3>
-              <p className="text-gray-600 text-left">Трекер с поддержкой высокого напряжения для электромобилей и тяжелой техники. Класс защиты IP67. Рабочее напряжение 10-97 В</p>
+              <p className="text-gray-600 text-left">Śledzący z obsługą wysokiego napięcia dla pojazdów elektrycznych i maszyn ciężarowych. Stopień ochrony IP67. Napięcie robocze 10–97 V</p>
             </div>
           </li>
 
@@ -98,7 +98,7 @@ export default function Devices() {
             />
             <div className="text-center md:text-left md:flex-1">
               <h3 className="font-semibold text-lg text-primary">GH5200</h3>
-              <p className="text-gray-600 text-left">Автономный 2G - трекер для личной безопасности и управления персоналом</p>
+              <p className="text-gray-600 text-left">Autonomiczny śledzący 2G do osobistej ochrony i zarządzania personelem</p>
             </div>
           </li>
 
@@ -110,7 +110,7 @@ export default function Devices() {
             />
             <div className="text-center md:text-left md:flex-1">
               <h3 className="font-semibold text-lg text-primary">TAT100</h3>
-              <p className="text-gray-600 text-left">2G трекер для активов с классом защиты IP68 и увеличенным сроком службы батареи</p>
+              <p className="text-gray-600 text-left">Śledzący 2G do monitorowania zasobów z klasą ochrony IP68 i przedłużonym czasem pracy baterii</p>
             </div>
           </li>
 
@@ -122,7 +122,7 @@ export default function Devices() {
             />
             <div className="text-center md:text-left md:flex-1">
               <h3 className="font-semibold text-lg text-primary">FMB003</h3>
-              <p className="text-gray-600 text-left">Наш самый компактный 2G-трекер, который помещается в любой автомобиль. С возможностью чтения данных из OBD разъема объекта.</p>
+              <p className="text-gray-600 text-left">Najbardziej kompaktowy śledzący 2G, który zmieści się w każdym pojeździe. Posiada możliwość odczytu danych z gniazda OBD obiektu.</p>
             </div>
           </li>
         </ul>

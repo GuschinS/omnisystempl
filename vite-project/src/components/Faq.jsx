@@ -4,70 +4,60 @@ export default function Faq() {
     <section id="faq" className="py-20 bg-lightBg">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center text-primary mb-10">
-          Часто задаваемые вопросы
+          Najczęściej zadawane pytania
         </h2>
         <div className="max-w-3xl mx-auto space-y-4">
           <details className="bg-white p-4 rounded shadow">
             <summary className="font-semibold text-lg text-primary cursor-pointer">
-              Можно ли установить систему мониторинга на транспортном
-              средстве/устройстве, отличном от автомобиля?
+              Czy można zainstalować system monitoringu na pojeździe lub urządzeniu innym niż samochód?
             </summary>
             <p className="mt-2">
-              Да, можно подключить к любому устройству с собственным источником
-              питания, работающим в диапазоне от 8 до 30 В. Так же существуют
-              модели терминалов работающие от напряжения до 89 В
+              Tak, można podłączyć do każdego urządzenia posiadającego własne źródło zasilania o napięciu od 8 do 30 V. Istnieją również modele terminali pracujące przy napięciu do 89 V.
             </p>
           </details>
+
           <details className="bg-white p-4 rounded shadow">
             <summary className="font-semibold text-lg text-primary cursor-pointer">
-              Как долго хранится история поездок?
+              Jak długo przechowywana jest historia przejazdów?
             </summary>
             <p className="mt-2">
-              Срок хранения данных на сервере мониторинга составляет 1 год
+              Dane są przechowywane na serwerze monitoringu przez 1 rok.
             </p>
           </details>
+
           <details className="bg-white p-4 rounded shadow">
             <summary className="font-semibold text-lg text-primary cursor-pointer">
-              Защитит ли устройство мой автомобиль от угона?
+              Czy urządzenie zabezpieczy mój samochód przed kradzieżą?
             </summary>
             <p className="mt-2">
-              Устройство не будет функционировать как противоугонная система. На
-              рынке легкодоступными и распространенными являются глушилки GPS
-              для автомобилей, которые нарушают работу устройства. Однако
-              существуют модели терминалов, которые можно использовать как
-              дополнение к противоугонной системе. Они не требуют подключения к
-              ботовой сети автомобиля, их не возможно обнаружить с помощью
-              специального оборудования. Такое устройство включается по
-              расписанию и передает местопожение на сервер.
+              Urządzenie nie pełni funkcji systemu antykradzieżowego. Na rynku dostępne są popularne zakłóiacze GPS dla samochodów, które mogą zakłócać jego działanie. Istnieją jednak modele terminali, które można wykorzystać jako dodatkową ochronę. Nie wymagają one podłączania do pokładowej sieci pojazdu i nie da się ich wykryć specjalistycznym sprzętem. Urządzenie to włącza się według ustawionego harmonogramu i przesyła swoją lokalizację na serwer.
             </p>
           </details>
+
           <details className="bg-white p-4 rounded shadow">
             <summary className="font-semibold text-lg text-primary cursor-pointer">
-              Можно ли перенести устройство на другой автомобиль при продаже
-              автомобиля?
+              Czy mogę przenieść urządzenie do innego samochodu przy sprzedaży obecnego?
             </summary>
             <p className="mt-2">
-              Конечно, такая возможность есть. Просто переместите устройство в другой автомобиль
-              и внесите изменения в систему мониторинга (измените название
-              автомобиля). Или обратитесь к нам за помощью.
+              Oczywiście, taka możliwość istnieje. Po prostu przenieś urządzenie do innego samochodu i zmień nazwę pojazdu w systemie monitoringu. Możesz też skontaktować się z nami, aby uzyskać pomoc.
             </p>
           </details>
+
           <details className="bg-white p-4 rounded shadow">
             <summary className="font-semibold text-lg text-primary cursor-pointer">
-              Являются ли устройства водонепроницаемыми?
+              Czy urządzenia są wodoodporne?
             </summary>
             <p className="mt-2">
-              Существуют модели терминалов с защитой IP68
+              Istnieją modele terminali z ochroną IP68.
             </p>
           </details>
+
           <details className="bg-white p-4 rounded shadow">
             <summary className="font-semibold text-lg text-primary cursor-pointer">
-              Сколько устройств/автомобилей я могу иметь на одной учетной
-              записи?
+              Ile urządzeń/pojazdów mogę mieć na jednym koncie?
             </summary>
             <p className="mt-2">
-              Наша система не имеет ограничений по количеству транспортных
-              средств, отображаемых на одной карте.
+              Nasz system nie nakłada ograniczeń dotyczących liczby pojazdów wyświetlanych na jednej mapie.
             </p>
           </details>
         </div>
